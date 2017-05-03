@@ -35,9 +35,9 @@ Specifically, these issues were addressed:
 1. The test set must be set aside to start with, so subsequently generated training sets don't dip into it   
             
 2. Implement training by "maxi-batches": 
-  - set aside test
-  - load one big train batch (~5k)
-  - do one epoch of training
+            - set aside test
+            - load one big train batch (~5k)
+            - do one epoch of training
     
 3. Manual image pre-processing - use scipy to load images in with uniform shape and formatting (and downsample, if desired)
         
