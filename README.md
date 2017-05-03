@@ -28,3 +28,23 @@ This notebook contains a variation on the VGG16, a pre-trained covnet included i
 
 ## Milestone 5
 
+This notebook is an extension of Milestones 3 & 4, adding topic modeling variables, improving the data processing pipeline, and extending the deep learning model.
+
+Specifically, these issues were addressed:
+
+1. The test set must be set aside to start with, so subsequently generated training sets don't dip into it   
+            
+2. Implement training by "maxi-batches": 
+  - set aside test
+  - load one big train batch (~5k)
+  - do one epoch of training
+    
+3. Manual image pre-processing - use scipy to load images in with uniform shape and formatting (and downsample, if desired)
+        
+4. Use Precision and Recall custom fcns for metrics
+    
+5. Save Keras model and associated metadata automatically
+    
+6. Log results for TensorBoard viz
+    
+7. Functionalize calls for model building and fitting, so we can sweep configs
