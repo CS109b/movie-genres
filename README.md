@@ -48,3 +48,7 @@ Specifically, these issues were addressed:
 6. Log results for TensorBoard viz
     
 7. Functionalize calls for model building and fitting, so we can sweep configs
+
+## Screencast
+
+<url=https://youtu.be/T4w-bONg7JE>Available on YouTube</url>
