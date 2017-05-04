@@ -51,4 +51,4 @@ Specifically, these issues were addressed:
 
 ## Screencast
 
-<url=https://youtu.be/T4w-bONg7JE>Available on YouTube</url>
+Available at https://youtu.be/T4w-bONg7JE
